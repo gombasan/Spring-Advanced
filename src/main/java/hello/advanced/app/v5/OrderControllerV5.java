@@ -15,13 +15,12 @@ public class OrderControllerV5 {
 
 	private final OrderServiceV5 orderServiceV5;
 
-	private final LogTrace logTrace;
+	private final TraceTemplate template;
 
 
 	@GetMapping("/v5/request")
 	public String request(String itemId) {
-		TraceTemplate traceTemplate = new TraceTemplate(logTrace);
-		return traceTemplate.execute("OrderController.request", () -> {
+		return template.execute("OrderController.request", () -> {
 			orderServiceV5.orderItem(itemId);
 			return "ok";
 		});

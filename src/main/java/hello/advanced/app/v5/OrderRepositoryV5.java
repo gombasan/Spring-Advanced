@@ -11,11 +11,10 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class OrderRepositoryV5 {
 
-	private final LogTrace logTrace;
+	private final TraceTemplate template;
 
 	public void save(String itemId) {
-		TraceTemplate traceTemplate = new TraceTemplate(logTrace);
-		traceTemplate.execute("OrderController.request", ()-> {
+		template.execute("OrderController.request", ()-> {
 			if(itemId.equals("ex")) {
 				throw new IllegalStateException("예외 발생");
 			}
