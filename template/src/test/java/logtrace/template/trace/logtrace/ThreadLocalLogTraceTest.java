@@ -2,7 +2,7 @@ package logtrace.template.trace.logtrace;
 
 import org.junit.jupiter.api.Test;
 
-import hello.advanced.trace.TraceStatus;
+import logtrace.template.trace.TraceStatus;
 
 public class ThreadLocalLogTraceTest {
 	LogTrace trace = new ThreadLocalTrace();

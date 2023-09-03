@@ -2,7 +2,7 @@ package logtrace.template.trace.threadlocal;
 
 import org.junit.jupiter.api.Test;
 
-import hello.advanced.trace.threadlocal.code.FieldService;
+import logtrace.template.trace.threadlocal.code.FieldService;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

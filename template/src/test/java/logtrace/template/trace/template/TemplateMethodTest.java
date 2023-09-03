@@ -2,8 +2,8 @@ package logtrace.template.trace.template;
 
 import org.junit.jupiter.api.Test;
 
-import hello.advanced.trace.template.code.SubClassLogic1;
-import hello.advanced.trace.template.code.SubClassLogic2;
+import logtrace.template.trace.template.code.SubClassLogic1;
+import logtrace.template.trace.template.code.SubClassLogic2;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

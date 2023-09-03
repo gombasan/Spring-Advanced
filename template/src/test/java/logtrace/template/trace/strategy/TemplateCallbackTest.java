@@ -2,8 +2,8 @@ package logtrace.template.trace.strategy;
 
 import org.junit.jupiter.api.Test;
 
-import hello.advanced.trace.strategy.code.template.Callback;
-import hello.advanced.trace.strategy.code.template.TimeLogTemplate;
+import logtrace.template.trace.strategy.code.template.Callback;
+import logtrace.template.trace.strategy.code.template.TimeLogTemplate;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

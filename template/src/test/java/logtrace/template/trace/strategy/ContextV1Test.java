@@ -2,9 +2,9 @@ package logtrace.template.trace.strategy;
 
 import org.junit.jupiter.api.Test;
 
-import hello.advanced.trace.strategy.code.strategy.ContextV1;
-import hello.advanced.trace.strategy.code.strategy.Strategy;
-import hello.advanced.trace.strategy.code.strategy.StrategyLogic1;
+import logtrace.template.trace.strategy.code.strategy.ContextV1;
+import logtrace.template.trace.strategy.code.strategy.Strategy;
+import logtrace.template.trace.strategy.code.strategy.StrategyLogic1;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
