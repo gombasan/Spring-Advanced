@@ -1,0 +1,5 @@
+package logtrace.template.trace.strategy.code.strategy;
+
+public interface Strategy {
+	void call();
+}
