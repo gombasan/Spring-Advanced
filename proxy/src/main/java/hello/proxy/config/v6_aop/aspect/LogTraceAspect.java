@@ -20,7 +20,7 @@ public class LogTraceAspect {
 		this.trace = trace;
 	}
 
-	@Around("execution(* hello.proxy.app..*(..))")
+	@Around("execution(* hello.proxy.app..*(..)) && !execution(* hello.proxy.app..noLog(..))")
 	public Object execute(ProceedingJoinPoint joinPoint) throws Throwable {
 		TraceStatus status = null;
 		try {
